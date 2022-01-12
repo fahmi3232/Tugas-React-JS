@@ -1,0 +1,16 @@
+div{
+    text-align: center;
+}
+.wrap-blog{
+    width: 280px;
+    display: inline-block;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: left;
+}
+.wrap-blog img{
+    width: 280px;
+}
