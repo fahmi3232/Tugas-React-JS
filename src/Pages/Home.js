@@ -1,25 +1,27 @@
 import React from 'react'
+import Banner from '../Component/Banner'
 import Blog from '../Component/Blog'
 
 const Home = () => {
     return (
         <div>
             <Blog 
-            title="Apa itu HTML"
-            deskripsi="HTML merupakan sebuah mark up yang digunakan untuk website"
-            tanggal="20 Desember 2021"/>
+            t="Apa itu HTML"
+            d="HTML merupakan sebuah mark up yang digunakan untuk website"
+            ta="20 Desember 2021"/>
             <Blog 
-            title="Apa itu CSS"
-            deskripsi="CSS adalah salah satu jenis kode untuk mempercantik website"
-            tanggal="20 Desember 2021"/>
+            t="Apa itu CSS"
+            d="CSS adalah salah satu jenis kode untuk mempercantik website"
+            ta="20 Desember 2021"/>
             <Blog 
-            title="Apa itu Javascript"
-            deskripsi="JavaScript adalah bahasa pemrograman untuk membuat website dinamis"
-            tanggal="20 Desember 2021"/>
+            t="Apa itu Javascript"
+            d="JavaScript adalah bahasa pemrograman untuk membuat website dinamis"
+            ta="20 Desember 2021"/>
             <Blog 
-            title="Belajar React JS"
-            deskripsi="Memulai belajar React untuk membuat website user interfaces"
-            tanggal="20 Desember 2021"/>
+            t="Belajar React JS"
+            d="Memulai belajar React untuk membuat website user interfaces"
+            ta="20 Desember 2021"/>
+            <Banner />
         </div>
     )
 }

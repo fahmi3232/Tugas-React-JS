@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Oswald:wght@300;500;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Roboto+Slab:wght@900&display=swap');
+
+.bio{
+    /* display: flex; */
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.bio h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+.bio p{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.mb h3{
+    font-family: 'Oswald', sans-serif;
+}
+
+.mc{
+    background-color: rgb(235, 235, 235);
+}
+
+.mb p{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.bg{
+    background-color: black;
+}
+
+.bgb{
+    background-color: #101010;
+    padding-top: 160px;
+    padding-bottom: 90px;
+    background-image: url(../Images/dark-3d-shapes-floor-4a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bt{
+    border-radius: 8px;
+    width: 130px;
+    height: 40px;
+    transition: .3s;
+    font-family: 'Quicksand', sans-serif;
+    font-style:italic;
+}
+
+.bt:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.faa{
+    font-family: 'Oswald', sans-serif;
+}
+
+.navv{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+}
+
+.sb{
+    border: 1px solid rgb(179, 176, 176);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+    padding-bottom: 20px;
+    transition: .5s;
+}
+.sb:hover{
+    border: 1px solid rgb(179, 176, 176);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    padding-bottom: 20px;
+}
+
+.sb h3{
+    font-family: 'Oswald', sans-serif;
+}
+
+.sb p{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.bto{
+    border-radius: 5px;
+    border: 1px solid grey;
+    height: 40px;
+    width: 170px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.kontak{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+.kontak h3{
+    font-size: 40px;
+}
+.sideleft{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+.mt{
+    background-color: rgb(235, 235, 235);
+}
+.mt h3{
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 20px;
+    font-size: 37px;
+}
+.tl{
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.8;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.ct{
+    background-color: rgb(44, 42, 42);
+    background-image: url(../Images/bg-widget.gif);
+}
+
+.ft{
+    background-color: black;
+    color: white;
+}
+
+.ft h3{
+    font-family: 'Oswald', sans-serif;
+}
+.ft p{
+    font-family: 'Quicksand', sans-serif;
+}
+.ft li{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.ft li a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,16 +1,26 @@
-import React from 'react'
-// import "./App.css";
-import Home from "./Pages/Home";
-import About from "./Pages/About"
+import React, { Component } from "react";
+import Home from './Biografi/Page/Home'
+// import About from "./Pages/About";
 
-function App() {
-  return (
-    <div>
-      <Home />
-      <About nama="Fahmi Oktafian" alamat="Madiun"/>
-    </div>
-  )
-      
+export default class App extends Component {
+  constructor(props) {
+    super(props)
+  
+    this.state = {
+       h : false
+    }
+  }
+  
+  render() {
+    return (
+      <div>
+        {/* <Home />
+        <button style={{marginTop: 50}} onClick={() => this.setState({h: !h})}>
+          {h ? "Tampilkan Data" : "Sembunyikan Data"}
+        </button>
+        {!h && <About n="Fahmi Oktafian" a="Madiun" />} */}
+        <Home />
+      </div>
+    );
+  }
 }
-
-export default App;

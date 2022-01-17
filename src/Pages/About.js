@@ -1,20 +1,16 @@
-import React, { Component } from 'react'
+import React, { useEffect } from "react";
 
-export default class About extends Component {
-    constructor(props) {
-        super(props)
-    
-        this.state = {
-             
-        }
-    }
-    
-    render() {
-        return (
-            <div>
-                <h2>{this.props.nama}</h2>
-                <h2>{this.props.alamat}</h2>
-            </div>
-        )
-    }
-}
+const About = ({n, a}) => {
+
+    useEffect(() => {
+        console.log('Oke Bos')
+    })
+  return (
+    <div>
+      <h2>Nama: {n}</h2>
+      <h2>Alamat: {a}</h2>
+    </div>
+  );
+};
+
+export default About;
