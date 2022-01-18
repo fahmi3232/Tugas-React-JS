@@ -37,10 +37,10 @@ const Biografi = () => {
           </Col>
         </Row>
       </Container>
-      <Container className="pb-5 text-center">
-        <Row>
+      <Container className="pb-5 text-center ">
+        <Row className="d-flex align-items-center justify-content-center">
           {bio.map((biograf) => (
-            <Col style={{width: 345}} className="sb mx-3" md={4}>
+            <Col style={{width: 340}} className="sb mx-3" md={4}>
               <img src={Media} alt="" />
               <h2>{biograf.title}</h2>
               <p>{biograf.deskripsi}</p>
