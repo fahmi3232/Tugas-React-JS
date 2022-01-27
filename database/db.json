@@ -1,0 +1,52 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "image": "https://icones.pro/wp-content/uploads/2021/05/icone-html-rouge.png",
+            "title": "Pengertian HTML Dasar",
+            "deskripsi":
+              "HTML adalah bahasa markup yang digunakan untuk membuat struktur halaman website.",
+            "tanggal": "20 Desember 2021"
+          },
+          {
+            "id": 2,
+            "image": "https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-css-logo-png-transparent-svg-vector-bie-supply-9.png",
+            "title": "Pengertian CSS Styling",
+            "deskripsi":
+              "CSS adalah salah satu styling language (bahasa desain), bagian dari markup language",
+            "tanggal": "22 Desember 2021"
+          },
+          {
+            "id": 3,
+            "image": "https://www.freepnglogos.com/uploads/javascript-png/javascript-shield-logo-icon-2.png",
+            "title": "Pengertian Javascript",
+            "deskripsi":
+              "JavaScript adalah bahasa pemrograman yang digunakan dalam website agar lebih dinamis",
+            "tanggal": "25 Desember 2021"
+          },
+          {
+            "id": 4,
+            "image": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+            "title": "Basic React JS",
+            "deskripsi":
+              "Some quick example text to build on the card title and make upthe bulk of the card's content.",
+            "tanggal": "30 Desember 2021"
+          },
+          {
+              "id": 5,
+              "image": "https://kampungdesigner.com/wp-content/uploads/edd/2020/07/Logo-Node-JS-by-kampungdesigner.jpg",
+              "title": "Belajar Node JS",
+              "deskripsi":
+                "Some quick example text to build on the card title and make upthe bulk of the card's content.",
+              "tanggal": "30 Desember 2021"
+            },
+            {
+              "id": 6,
+              "image": "https://i0.wp.com/www.disk91.com/wp-content/uploads/2018/02/mongodb-1.png",
+              "title": "Belajar Database Mongodb",
+              "deskripsi":
+                "Some quick example text to build on the card title and make upthe bulk of the card's content.",
+              "tanggal": "30 Desember 2021"
+            }
+    ]
+}

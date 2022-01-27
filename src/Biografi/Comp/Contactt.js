@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Container,
   Row,
@@ -7,11 +7,14 @@ import {
   FormControl,
   Button,
 } from "react-bootstrap";
+import { Fade } from "react-awesome-reveal";
 
 const Contactt = () => {
+  
   return (
     <div className="ct py-5">
       <Container className="mt-5 mb-3">
+        <Fade delay={400}>
         <Row>
           <Col md={4} className="mb-4 m-auto sideleft" style={{marginRight: 30}}>
             <h2>MY SIDE JOB</h2>
@@ -95,7 +98,7 @@ const Contactt = () => {
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                   <Form.Label>Phone*</Form.Label>
-                  <Form.Control type="number" placeholder="(555) 555 5555" />
+                  <Form.Control type="number" placeholder="(555) 555 5555"/>
                 </Form.Group>
                 <Form.Group
                   className="mb-3"
@@ -111,6 +114,7 @@ const Contactt = () => {
             </Row>
           </Col>
         </Row>
+        </Fade>
       </Container>
     </div>
   );

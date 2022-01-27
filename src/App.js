@@ -1,6 +1,12 @@
 import React, { Component } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import NavbarComp from "./Biografi/Comp/NavbarComp";
+// import HomeList from "./Biografi/ListContact/HomeList";
+import Blog from "./Biografi/Page/Blog";
 import Home from './Biografi/Page/Home'
-// import About from "./Pages/About";
+import Portfolio from "./Biografi/Page/Portfolio";
+import FormRegister from "./Biografi/Page/FormRegister";
+import HtmlBlog from "./Biografi/Comp/BlogComp/DetailBlogComp/HtmlBlog";
 
 export default class App extends Component {
   constructor(props) {
@@ -19,7 +25,16 @@ export default class App extends Component {
           {h ? "Tampilkan Data" : "Sembunyikan Data"}
         </button>
         {!h && <About n="Fahmi Oktafian" a="Madiun" />} */}
-        <Home />
+        <BrowserRouter>
+        <NavbarComp />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/form" element={<FormRegister />} />
+            <Route path="/detail/:id" element={<HtmlBlog />} />
+          </Routes>
+        </BrowserRouter>
       </div>
     );
   }

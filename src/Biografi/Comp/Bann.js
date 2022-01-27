@@ -9,7 +9,6 @@ const Bann = () => {
             <Container>
                 <Row>
                     <Col className='banner-wrap'>
-                        
                     </Col>
                 </Row>
             </Container>

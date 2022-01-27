@@ -4,9 +4,9 @@ import { Col, Container, Row } from 'react-bootstrap'
 const Footer = () => {
     return (
         <div className="ft py-5">
-            <Container>
+            <Container className="mt-3">
                 <Row>
-                    <Col md={4} className="">
+                    <Col md={4} className="mb-3">
                         <h3>BIODATA SINGKAT</h3>
                         <p>Nama saya Fahmi Oktafian, asal dari madiun Jawa Timur. Harapan saya setelah belajar di Eduwork, saya bisa menguasai bahasa pemrograman website dan menjadi seorang Web Developer.</p>
                     </Col>
