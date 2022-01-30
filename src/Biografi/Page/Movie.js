@@ -27,9 +27,7 @@ const Movie = () => {
 
   return (
     <div>
-      {loading ? (
-        "Loading..."
-      ) : (
+      
         <Container className="py-5">
           <input
             style={{ width: "100%", height: 40 }}
@@ -37,6 +35,9 @@ const Movie = () => {
             placeholder="Find Your Favorite Avengers Movie"
             onChange={(e) => setSearch(e.target.value)}
           />
+          {loading ? (
+        "Loading..."
+      ) : (
           <Row>
             {berita
               .filter((berit) => {
@@ -71,8 +72,8 @@ const Movie = () => {
                 </Col>
               ))}
           </Row>
-        </Container>
       )}
+        </Container>
     </div>
   );
 };
