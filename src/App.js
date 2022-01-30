@@ -7,6 +7,8 @@ import Home from './Biografi/Page/Home'
 import Portfolio from "./Biografi/Page/Portfolio";
 import FormRegister from "./Biografi/Page/FormRegister";
 import HtmlBlog from "./Biografi/Comp/BlogComp/DetailBlogComp/HtmlBlog";
+import Movie from "./Biografi/Page/Movie";
+import Info from "./Biografi/Page/Info";
 
 export default class App extends Component {
   constructor(props) {
@@ -33,6 +35,8 @@ export default class App extends Component {
             <Route path="/blog" element={<Blog />} />
             <Route path="/form" element={<FormRegister />} />
             <Route path="/detail/:id" element={<HtmlBlog />} />
+            <Route path="/movie" element={<Movie />} />
+            <Route path="/info" element={<Info />} />
           </Routes>
         </BrowserRouter>
       </div>

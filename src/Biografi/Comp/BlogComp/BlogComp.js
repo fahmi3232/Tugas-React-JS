@@ -8,10 +8,17 @@ import axios from 'axios'
 const BlogComp = ({ blog }) => {
   const [blogCoba, setBlogCoba] = useState(null);
 
+  const getBlog = async () => {
+    try {
+      let resp = await axios.get('https://jsonplaceholder.typicode.com/posts')
+      setBlogCoba(resp.data)
+    } catch(e) {
+      console.log(e.message)
+    }
+  }
+
   useEffect(() => {
-    axios.get('https://jsonplaceholder.typicode.com/posts').then(res => {
-      setBlogCoba(res.data)
-    })
+    getBlog()
   }, [])
 
   return (

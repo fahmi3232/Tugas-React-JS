@@ -45,6 +45,16 @@ const NavbarComp = () => {
                 <h5 style={{color: "white", paddingTop: 15}}>Form</h5>
                 </Nav.Link>
               </LinkContainer>
+              <LinkContainer to="/movie">
+                <Nav.Link>
+                <h5 style={{color: "white", paddingTop: 15}}>Movie</h5>
+                </Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/info">
+                <Nav.Link>
+                <h5 style={{color: "white", paddingTop: 15}}>Info Terbaru</h5>
+                </Nav.Link>
+              </LinkContainer>
             </Nav>
             <Form className="d-flex ms-auto">
               <FormControl

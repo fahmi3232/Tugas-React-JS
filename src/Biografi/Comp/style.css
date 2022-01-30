@@ -256,3 +256,13 @@
     );
     box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
   }
+
+  .tbl{
+      border: 1px solid #eaeaea;
+      background-color: rgb(9, 122, 167);
+      text-decoration: none;
+      color: rgb(175, 174, 174);
+      padding: 5px 15px;
+      border-radius: 7px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
