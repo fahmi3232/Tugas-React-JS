@@ -6,6 +6,7 @@ import "../Comp/style.css";
 const Info = () => {
   const [data, setData] = useState([]);
   const [search, setSearch] = useState("");
+  const [error, setError] = useState(false)
 
   const getData = async () => {
     try {
@@ -15,6 +16,7 @@ const Info = () => {
       setData(resp.data.articles);
     } catch (e) {
       console.log(e.message);
+      setError(e.message)
     }
   };
 
@@ -29,7 +31,8 @@ const Info = () => {
           className="mt-5 mb-5"
           placeholder="search Information ..."
           onChange={(e) => setSearch(e.target.value)}
-        />
+          />
+          { error && <div>{error}</div> }
           <Row>
             {data
               .filter((dat) => {
